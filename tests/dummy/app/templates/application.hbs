@@ -1,3 +1,8 @@
-<h2 id="title">Welcome to Ember</h2>
-
+<div id="is-items-route-active">
+  {{#if (is-route-active 'items')}}
+    true
+  {{else}}
+    false
+  {{/if}}
+</div>
 {{outlet}}
