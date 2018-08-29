@@ -1,3 +1,8 @@
 <div id="is-items-route-active">{{is-route-active 'items'}}</div>
 <div id="transition-to-items" onclick={{action (transition to='items')}}></div>
+
+<Link @to='items' id='link-to-items-component'>
+  go to items
+</Link>
+
 {{outlet}}
